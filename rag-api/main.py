@@ -9,3 +9,8 @@ def home():
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
+ 
+# 홈 url : http://127.0.0.1:8000/
+# health check url : http://127.0.0.1:8000/health
+# API 문서 url : http://127.0.0.1:8000/docs
